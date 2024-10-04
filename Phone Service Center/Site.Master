@@ -1,0 +1,126 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.Master.cs" Inherits="Phone_Service_Center.SiteMaster" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - Phone Service Center</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <webopt:BundleReference runat="server" Path="~/Content/css" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+    <style>
+        .dropdown-menu .dropdown-item:hover,
+        .dropdown-menu .dropdown-item:focus {
+            background-color: red;
+            color: white;
+        }
+
+        .dropdown-menu .dropdown-item.active {
+            background-color: red;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <form runat="server">
+        <asp:ScriptManager runat="server">
+            <Scripts>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Name="WebFormsBundle" />
+            </Scripts>
+        </asp:ScriptManager>
+
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: red">
+            <img src="Img/PSE LOGO.png" width="50px" height="50px" class="p-1" />
+            <div>
+                <a class="navbar-brand" runat="server" href="/">Phone Service Center</a>
+            </div>
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+
+                        <% 
+                            string userCategory = Session["UserCategory"] as string;
+
+                            if (userCategory == "Admin")
+                            {
+                        %>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownUsers" role="button" data-bs-toggle="dropdown" aria-expanded="false">Users</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownUsers">
+                                <li><a class="dropdown-item" href="/UserMaster.aspx">User Master</a></li>
+                                <li><a class="dropdown-item" href="/ServiceCenterMaster.aspx">Service Center Master</a></li>
+                                <li><a class="dropdown-item" href="/ServiceCenterMappingMaster.aspx">Service Center Pincode Mapping Master</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownTransactions" role="button" data-bs-toggle="dropdown" aria-expanded="false">Transactions</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownTransactions">
+                                <li><a class="dropdown-item" href="/GenerateTickets.aspx">Generate Tickets</a></li>
+                                <li><a class="dropdown-item" href="/AssignTickets.aspx">Assign Tickets</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownReports" role="button" data-bs-toggle="dropdown" aria-expanded="false">Reports</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownReports">
+                                <li><a class="dropdown-item" href="/TicketReports.aspx">Ticket Reports</a></li>
+                                <li><a class="dropdown-item" href="/SCWiseTicketsReports.aspx">SC Wise Tickets Reports</a></li>
+                                <li><a class="dropdown-item" href="/EngineerWiseTicketsReports.aspx">Engineer Wise Tickets Reports</a></li>
+                            </ul>
+                        </li>
+                        <% 
+                            }
+                            else if (userCategory == "Engineer")
+                            {
+                        %>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownTransactions" role="button" data-bs-toggle="dropdown" aria-expanded="false">Transactions</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownTransactions">
+                                <li><a class="dropdown-item" href="/EngineerTickets.aspx">Engineer Tickets</a></li>
+                            </ul>
+                        </li>
+                        <% 
+                            }
+                        %>
+                    </ul>
+                    <ul class="navbar-nav ms-auto">
+                        <div class="form-inline my-2 my-lg-0">
+                            <asp:Label ID="lblWelcome" runat="server" CssClass="text-white me-3"></asp:Label>
+                            <asp:Button ID="btnLogout" runat="server" CssClass="btn btn-light" Text="Logout" OnClick="btnLogout_Click" />
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container mt-4">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <footer class="text-white mt-4 py-3" style="background-color: red">
+            <div class="container text-center">
+                <p class="mb-0">&copy; <%: DateTime.Now.Year %> Phone Service Center. All rights reserved.</p>
+            </div>
+        </footer>
+    </form>
+
+    <!-- Link to Bootstrap JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

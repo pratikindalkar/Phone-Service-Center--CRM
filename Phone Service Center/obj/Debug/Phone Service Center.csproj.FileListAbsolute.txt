@@ -1,0 +1,73 @@
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\Phone Service Center.dll.config
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\Phone Service Center.dll
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\Phone Service Center.pdb
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\roslyn\csc.exe
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\roslyn\csc.exe.config
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\roslyn\csc.rsp
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\roslyn\csi.exe
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\roslyn\csi.exe.config
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\roslyn\csi.rsp
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\roslyn\System.AppContext.dll
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\roslyn\System.Console.dll
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\roslyn\System.IO.Compression.dll
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\roslyn\System.Net.Http.dll
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\roslyn\System.ValueTuple.dll
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\roslyn\vbc.exe
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\roslyn\vbc.exe.config
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\roslyn\vbc.rsp
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\roslyn\VBCSCompiler.exe
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\Antlr3.Runtime.dll
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\Newtonsoft.Json.dll
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\System.Web.Optimization.dll
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\WebGrease.dll
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\System.Web.Optimization.xml
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\Newtonsoft.Json.xml
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\Antlr3.Runtime.pdb
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\obj\Debug\Phone Service Center.csproj.AssemblyReference.cache
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\obj\Debug\Phone Service Center.csproj.CoreCompileInputs.cache
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\obj\Debug\Phone Se.A6BAB6B8.Up2Date
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\obj\Debug\Phone Service Center.dll
+C:\Users\Goldmedal\Desktop\Pratikkkkkkkkkkkkkk\Phone Service Center\Phone Service Center\obj\Debug\Phone Service Center.pdb
